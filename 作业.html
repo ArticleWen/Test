@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>作业</title>
+	<style type="text/css">
+		.a{
+			float: left;
+			width: 730px;
+
+		}
+		.b{ 
+			float: right;
+		}
+		.c{
+			margin: 0 auto;
+			width: 70px;
+			line-height: 74px;
+			float: left;
+		}
+		#e{
+			width: 550px;
+			height: 350px;
+		}
+		#f{
+			width: 550px;
+			height: 350px;
+		}
+		#g{
+			width: 550px;
+			height: 350px;
+		}
+		#h{
+			width: 550px;
+			height: 350px;
+		}
+		#i{
+			color: red;
+			font-size: 70px;
+		}
+
+	</style>
+	<script>
+	function magic1()
+{
+element=document.getElementById('e')
+if (element.src.match("bulbon"))
+  {
+  element.src="1.jpg";
+  }
+else
+  {
+  element.src="2.jpg";
+  }
+}
+</script>
+<script>
+	function magic2()
+{
+x=document.getElementById("i");  
+x.innerHTML="最棒！";    
+}
+
+</script>
+
+</head>
+<body>
+	<div class="a"><img id="e" onclick="magic1()" src="1.jpg" title="点击有惊喜"><br>
+	<img id="g"  src="4.jpg"></div>
+	<div class="b"><img id="f"  src="3.jpg"><br>
+	<img id="g"  src="5.jpg"></div>
+	<div class="c"><p id="i"  >未来研究所</p>
+		<button type="button" onclick="magic2()">点击这里</button></div>	
+	<EMBED src="1.mp3" autostart="true" loop="true" width="1" height="1">
+	
+
+</body>
+</html>
